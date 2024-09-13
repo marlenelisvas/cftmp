@@ -1,6 +1,6 @@
 const express = require("express");
 const passport = require("passport");
-const xsenv = require("e@sap/xsenv");
+const xsenv = require("@sap/xsenv");
 const JWTStrategy = require("@sap/xssec").JWTStrategy;
 const services = xsenv.getServices({uaa: "cftmp-xsuaa"});//xsuaa service
 const app = express();
